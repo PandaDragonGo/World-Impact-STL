@@ -29,10 +29,10 @@
 			.interior .leftColumn{width:239px;float:left;background: url(images/int-nav-shadow.png) no-repeat top right;min-height:310px;padding-right:16px;}
 				h2.section-title{font-weight:normal; font-size: 24px; font-style: italic; border-bottom:solid 1px #E2E5E8;margin-bottom:0;}			
 				 .nav-int{padding:0;margin:10px 0 0;list-style:none;overflow:hidden;clear: both;}
-					.nav-int li{display:block;margin:0;}
+					.nav-int li{display:block;margin:4px 0;}
 						.nav-int li:hover, .nav li.bc{cursor:pointer;color:#4FA2D0;}
-							.nav-int a, .nav-int a:visited, .nav-int a:link{ display: block; padding: 8px 10px;}
-							.nav-int a:hover, .nav-int li.bc a, .nav-int .sel a, .nav-int a:active{background: rgba(79, 162, 208, 0.8); color:#fff; text-decoration:none;}						
+							.nav-int a, .nav-int a:visited, .nav-int a:link{display: block; padding: 8px 10px;}
+							.nav-int a:hover, .nav-int a:visited:hover, .nav-int li.bc a, .nav-int .sel a, .nav-int a:active{background: rgba(79, 162, 208, 0.8); color:#fff; text-decoration:none;}						
 						.nav-int li ul{display:none;}
 						.nav-int li.sel ul{display:block !important; padding:0 0 0 10px; margin:0;}
 							.nav-int li ul a, .nav-int li ul a:visited, .nav-int li ul a:link{}
