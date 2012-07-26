@@ -1,0 +1,13 @@
+<ul class="nav">
+	[*>NODE-TOP]
+</ul>
+
+[>NODE-TOP]
+	<li class="[?FIRST] first[/?][?LAST] last[/?][?SELECTED] sel[/?][?BREADCRUMB] bc[/?]">
+		[?ENABLED]
+			<a href="[=URL]">[=TEXT]</a>
+		[?ELSE]
+			[=TEXT]
+		[/?]
+	</li>
+[/>]

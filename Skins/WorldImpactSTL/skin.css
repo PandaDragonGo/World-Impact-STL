@@ -1,0 +1,166 @@
+#Body, html{font-family: "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", sans-serif; font-size:14px; line-height: 1.5; color:#444; margin:0; padding:0; background-color:#d2dadf;}
+
+#WorldImpactSTL{width:960px; margin:0 auto;}
+/*--------- Header Styles ---------*/
+	#header{position:relative;padding:50px 0 0;}    	
+    	.logo{position:absolute;top:25px;left:10px;z-index:1200;}	
+		.nav{padding:0;margin:0;list-style:none;overflow:hidden;background: url(images/nav-bg.png) no-repeat top right;width:729px;height:47px;float:right;}
+			.nav li{display:inline;float:left;padding:14px;margin:0;border-right:solid 1px #212121;border-left:solid 1px #555;}
+			.nav li.first{margin-left: 25px;border-left:none;}
+			.nav li.last{}
+			.nav li:hover, .nav li.bc{cursor:pointer;color:#fff;background: url(images/nav-hov-bg.jpg) repeat-x top left;}
+				.nav a, .nav a:visited, .nav a:link{font-size:15px;color:#ccc;}
+				.nav a:hover, .nav a.hov{color:#fff;text-decoration: none;}
+				.nav li.bc a, .nav .sel a, .nav a:active{color:#fff;text-decoration: none;}   				
+    	.banner{clear:both;z-index:300;}
+    	.banner.DNNEmptyPane{background:#9AB0C8;min-height:170px;width:960px;}
+    		.banner .notitle{margin:0;}
+    	  
+/*--------- Layout Styles ---------*/
+    #contentWrap{background: #fff url(images/texture-bg.jpg) no-repeat bottom left; padding:20px;border-bottom:solid 1px #ddd;}	
+		.main-col{float:left;width:560px;}
+		.right-side{width:290px; float:right; background: #e2e5e8; border: solid 4px #fff; -webkit-box-shadow: 0px 0px 4px 0px #ccc; box-shadow: 0px 0px 4px 0px #ccc; padding:15px;}
+			.actions{background: #E2E5E8;padding:10px 3px 15px;}
+			.sidebar{}
+		.fullwidth{width:920px;clear:both;}
+		           
+        .interior .main-content{}
+        .interior .twocol{}
+			.interior .leftColumn{width:239px;float:left;background: url(images/int-nav-shadow.png) no-repeat top right;min-height:310px;padding-right:16px;}
+				h2.section-title{font-weight:normal; font-size: 24px; font-style: italic; border-bottom:solid 1px #E2E5E8;margin-bottom:0;}			
+				 .nav-int{padding:0;margin:10px 0 0;list-style:none;overflow:hidden;clear: both;}
+					.nav-int li{display:block;margin:0;}
+						.nav-int li:hover, .nav li.bc{cursor:pointer;color:#4FA2D0;}
+							.nav-int a, .nav-int a:visited, .nav-int a:link{ display: block; padding: 8px 10px;}
+							.nav-int a:hover, .nav-int li.bc a, .nav-int .sel a, .nav-int a:active{background: rgba(79, 162, 208, 0.8); color:#fff; text-decoration:none;}						
+						.nav-int li ul{display:none;}
+						.nav-int li.sel ul{display:block !important; padding:0 0 0 10px; margin:0;}
+							.nav-int li ul a, .nav-int li ul a:visited, .nav-int li ul a:link{}
+							.nav-int li ul a:hover, .nav-int li ul .bc a, .nav-int li ul .sel a, .nav-int li ul a:active{}
+													
+				.interior .sidebar{}
+				.interior .main-col{float:right;width:624px;}			
+				.interior .actions{ border-top:solid 1px #fff;padding:10px 36px 15px;}
+				
+				/*--- Action Button Styles ---*/
+					ul#giving-home, ul#giving-interior{margin:0;padding:0;}
+						ul#giving-home li, ul#giving-interior li{padding:5px 15px;color:#fff;list-style:none;margin:15px 0;}
+						ul#giving-home li:hover, ul#giving-interior li:hover{cursor:pointer;}
+						ul#giving-home li{width:253px;height:46px;}
+						ul#giving-interior li{width:182px;height:32px;float:left;margin:15px 5px;}
+						li.give-money{background: url(images/action-btn-green.png) no-repeat top left;}
+						li.give-money:hover{background: url(images/action-btn-green-hov.png) no-repeat top left;}
+						li.give-stuff{background: url(images/action-btn-red.png) no-repeat top left;}
+						li.give-stuff:hover{background: url(images/action-btn-red-hov.png) no-repeat top left;}
+						li.give-time{background: url(images/action-btn-blue.png) no-repeat top left;}
+						li.give-time:hover{background: url(images/action-btn-blue-hov.png) no-repeat top left;}
+						li.give-later{background: url(images/action-btn-purple.png) no-repeat top left;}
+						li.give-later:hover{background: url(images/action-btn-purple-hov.png) no-repeat top left;}
+						
+						ul#giving-interior li.give-money{background: url(images/action-btn-green-sml.png) no-repeat top left;}
+						ul#giving-interior li.give-money:hover{background: url(images/action-btn-green-sml-hov.png) no-repeat top left;}
+						ul#giving-interior li.give-stuff{background: url(images/action-btn-red-sml.png) no-repeat top left;}
+						ul#giving-interior li.give-stuff:hover{background: url(images/action-btn-red-sml-hov.png) no-repeat top left;}
+						ul#giving-interior li.give-time{background: url(images/action-btn-blue-sml.png) no-repeat top left;}
+						ul#giving-interior li.give-time:hover{background: url(images/action-btn-blue-sml-hov.png) no-repeat top left;}
+						ul#giving-interior li.give-later{background: url(images/action-btn-purple-sml.png) no-repeat top left;}
+						ul#giving-interior li.give-later:hover{background: url(images/action-btn-purple-sml-hov.png) no-repeat top left;}
+							ul#giving-home li a, ul#giving-interior a{color:#fff;font-weight:bold;text-shadow: 1px 1px 1px #555;}
+							ul#giving-home li a{font-size:18px;}
+							ul#giving-interior li a{font-size:14px;}
+							ul#giving-home li a:hover, ul#giving-interior li a:hover{text-decoration:none;}
+								ul#giving-home li a span{font-size:11px;display:block;}
+								ul#giving-interior li a span{font-size:9px;display:block;}
+								
+#WorldImpactSTL.admin{width:90%;padding:0;}
+	#WorldImpactSTL.admin .main-col{width:100%;}
+		.admin h2.site-title{font-size:30px;font-style:italic;float:left;width:300px;margin:0;}
+			.admin h2.site-title a{color:#333;text-decoration:none;}
+			.admin h2.site-title a:hover{color:#4FA2D0; text-decoration:underline;}
+		.admin #contentWrap{background: #f9f9f9;}
+			
+/*--------- Footer Styles ---------*/					
+    #footer{background: #3e3e3e; padding:12px 0;-webkit-border-radius: 0 0 10px 10px;border-radius: 0 0 10px 10px;color:#eee;font-size:12px;}
+    	.three-col{width:860px;margin:0 auto;}
+			.footerUtility{}
+				.footerUtility .copyright{}
+				.footerUtility ul{margin:0;padding:0;}
+					.footerUtility li{list-style:none;}
+						.footerUtility a, .footerUtility a:link{color:#eee;}
+			.foot-mid{}
+        	.foot-right{}
+	.bottom-shadow{background: url(images/bottom-shadow.png) no-repeat bottom center; height:24px;}
+
+/*--------------------  Headings & Text -------------------- */ 
+h1, h2, h3, h4, h5, h6, dt, th{font-family: "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", sans-serif; color:#222; font-weight: bold;}
+	h2{font-size:30px;}
+	h3{font-size:24px;}
+	h4{font-size:24px;	font-weight:normal;}
+	h5{font-size:18px;}
+	h6{font-size:16px; text-transform:uppercase;}
+		
+.Head, .SubHead, .SubSubHead{font-family: "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", sans-serif; font-size:14px; color:#222; }
+	.Head{font-size:30px;}
+	.SubHead{font-size:24px;}
+	.SubSubHead{font-size:16px; text-transform:uppercase;}
+
+	h2 .ModuleTitle_MenuBar {}
+	
+.Normal, .NormalBold, .NormalDisabled, .NormalTextBox, .NormalRed, .CommandButton, .SkinObject, blockquote{font-family: "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", sans-serif; font-size:14px; line-height: 1.5; color:#444; }
+	.NormalRed{color:#f00;}
+	.NormalBold{font-weight:bold;}
+	.NormalTextBox{}
+	
+/*--------------------  Links. Lists, & Tables -------------------- */ 
+a, a:link, a.SkinObject, a.SkinObject:link{color:#4FA2D0; text-decoration:none;}
+	a:hover, a:visited:hover, a.SkinObject:hover, a.SkinObject:visited:hover{color:#4FA2D0; text-decoration:underline;}
+	a:visited, a.SkinObject:visited{color:#4FA2D0;}
+	a:active, a.SkinObject:active{color:#4FA2D0;}
+						
+a img {border:none;}
+
+a.CommandButton:link{}
+	a.CommandButton:hover, a.CommandButton:visited:hover{}
+	a.CommandButton:visited{}
+
+	dl{}
+		dt{}
+		dd{}
+	ul{}
+		ul li{list-style:disc;}
+		li{}
+	ol{}
+		ol li{}
+		li{}
+
+	#WorldImpactSTL table{border-collapse: collapse;}
+		#WorldImpactSTL tbody{}
+		#WorldImpactSTL caption{font-style:italic;}
+			#WorldImpactSTL tr{}
+				#WorldImpactSTL th{font-weight:bold;}
+				#WorldImpactSTL td{}
+				
+/*--------------------  Container Styles -------------------- */ 	
+.simple, .notitle, .post{margin-bottom:25px; clear:both;}
+	.simple{}	
+		.simple h2.s-heading{border:none;}
+			.simple h2.s-heading .Head{font-size:40px;color:#3b2c24;}
+		.s-body{}	
+
+	.post { background: #e2e5e8; border: solid 4px #fff; -webkit-box-shadow: 0px 0px 4px 0px #ccc; box-shadow: 0px 0px 4px 0px #ccc; padding: 15px;}	
+		h2.post-heading{}
+		.post-body{}
+			
+/*--- Rotator Styles ---
+.wistl-template{overflow:hidden;width:100%;background: url(images/bottom-shadow.png) no-repeat bottom center;padding-bottom:24px;}
+.wistl-template .rotate-wrap{width:100%;float:left;overflow:hidden;position:relative;z-index:1;}
+	.wistl-template .engage-content p{margin:0;}
+	.wistl-template .footer{position:absolute;bottom:15px;right:0;width:70%;background: transparent url(images/content-bg.png) repeat top left;height:auto;}
+		.wistl-template .title{color:#fff;padding:10px 15px;font-size:16px;}	*/
+		
+/*--- Misc Styles ---*/
+.clear{clear:both;}
+.dnnActionMenu {left:auto;right:10px;}
+
+/*--- Content Styles ---*/
+
