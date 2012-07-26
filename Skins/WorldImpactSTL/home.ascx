@@ -17,22 +17,21 @@
 			<div class="actions">
 				<ul id="giving-home">
 					<li class="give-money">
-					<a href="/Giving/GiveMoney.aspx">Give Money <span>Donate to empower the city</span></a>
+						<a href="/Giving/GiveMoney.aspx">Give Money <span>Donate to empower the city</span></a>
 					</li>
 					<li class="give-stuff">
-					<a href="/Giving/GiveStuff.aspx">Give Stuff <span>Ministry and housing donations</span></a>
+						<a href="/Giving/GiveStuff.aspx">Give Stuff <span>Ministry and housing donations</span></a>
 					</li>
 					<li class="give-time">
-					<a href="/Giving/GiveTime.aspx">Give Time <span>Volunteer your time</span></a>
+						<a href="/Giving/GiveTime.aspx">Give Time <span>Volunteer your time</span></a>
 					</li>
 					<li class="give-later">
-					<a href="/Giving/GiveLater.aspx">Give Later <span>Leave a lasting testimony</span></a>
+						<a href="/Giving/GiveLater.aspx">Give Later <span>Leave a lasting testimony</span></a>
 					</li>
 				</ul>
 			</div>
 			<div class="sidebar" id="Sidebar" runat="server"></div>
 		</div>
-        
         
         <div class="clear"></div>
     </div>   

@@ -44,30 +44,29 @@
 				
 				/*--- Action Button Styles ---*/
 					ul#giving-home, ul#giving-interior{margin:0;padding:0;}
-						ul#giving-home li, ul#giving-interior li{padding:5px 15px;color:#fff;list-style:none;margin:15px 0;}
-						ul#giving-home li:hover, ul#giving-interior li:hover{cursor:pointer;}
-						ul#giving-home li{width:253px;height:46px;}
-						ul#giving-interior li{width:182px;height:32px;float:left;margin:15px 5px;}
-						li.give-money{background: url(images/action-btn-green.png) no-repeat top left;}
-						li.give-money:hover{background: url(images/action-btn-green-hov.png) no-repeat top left;}
-						li.give-stuff{background: url(images/action-btn-red.png) no-repeat top left;}
-						li.give-stuff:hover{background: url(images/action-btn-red-hov.png) no-repeat top left;}
-						li.give-time{background: url(images/action-btn-blue.png) no-repeat top left;}
-						li.give-time:hover{background: url(images/action-btn-blue-hov.png) no-repeat top left;}
-						li.give-later{background: url(images/action-btn-purple.png) no-repeat top left;}
-						li.give-later:hover{background: url(images/action-btn-purple-hov.png) no-repeat top left;}
+						ul#giving-home li, ul#giving-interior li{color:#fff;list-style:none;margin:15px 0;background:no-repeat top left;}
+						ul#giving-home li{background-image: url(images/home-giving.png);}
+						ul#giving-interior li{float:left;margin:15px 5px;background-image: url(images/interior-giving.png);}
+						ul#giving-home li.give-money{background-position:-10px -10px;}
+						ul#giving-home li.give-money:hover{background-position:-303px -10px;}
+						ul#giving-home li.give-stuff{background-position:-10px -86px;}
+						ul#giving-home li.give-stuff:hover{background-position:-303px -86px;}
+						ul#giving-home li.give-time{background-position:-10px -162px;}
+						ul#giving-home li.give-time:hover{background-position:-303px -162px;}
+						ul#giving-home li.give-later{background-position:-10px -238px;}
+						ul#giving-home li.give-later:hover{background-position:-303px -238px;}
 						
-						ul#giving-interior li.give-money{background: url(images/action-btn-green-sml.png) no-repeat top left;}
-						ul#giving-interior li.give-money:hover{background: url(images/action-btn-green-sml-hov.png) no-repeat top left;}
-						ul#giving-interior li.give-stuff{background: url(images/action-btn-red-sml.png) no-repeat top left;}
-						ul#giving-interior li.give-stuff:hover{background: url(images/action-btn-red-sml-hov.png) no-repeat top left;}
-						ul#giving-interior li.give-time{background: url(images/action-btn-blue-sml.png) no-repeat top left;}
-						ul#giving-interior li.give-time:hover{background: url(images/action-btn-blue-sml-hov.png) no-repeat top left;}
-						ul#giving-interior li.give-later{background: url(images/action-btn-purple-sml.png) no-repeat top left;}
-						ul#giving-interior li.give-later:hover{background: url(images/action-btn-purple-sml-hov.png) no-repeat top left;}
-							ul#giving-home li a, ul#giving-interior a{color:#fff;font-weight:bold;text-shadow: 1px 1px 1px #555;}
-							ul#giving-home li a{font-size:18px;}
-							ul#giving-interior li a{font-size:14px;}
+						ul#giving-interior li.give-money{background-position:-8px -8px;}
+						ul#giving-interior li.give-money:hover{background-position:-228px -8px;}
+						ul#giving-interior li.give-stuff{background-position:-8px -64px;}
+						ul#giving-interior li.give-stuff:hover{background-position:-228px -64px;}
+						ul#giving-interior li.give-time{background-position:-8px -121px;}
+						ul#giving-interior li.give-time:hover{background-position:-228px -121px;}
+						ul#giving-interior li.give-later{background-position:-8px -178px;}
+						ul#giving-interior li.give-later:hover{background-position:-228px -178px;}
+							ul#giving-home li a, ul#giving-interior a{display:block;color:#fff;font-weight:bold;padding:5px 15px;text-shadow: 1px 1px 1px #555;}
+							ul#giving-home li a{font-size:18px;height:46px;width:253px;}
+							ul#giving-interior li a{font-size:14px;width:182px;height:32px;}
 							ul#giving-home li a:hover, ul#giving-interior li a:hover{text-decoration:none;}
 								ul#giving-home li a span{font-size:11px;display:block;}
 								ul#giving-interior li a span{font-size:9px;display:block;}
