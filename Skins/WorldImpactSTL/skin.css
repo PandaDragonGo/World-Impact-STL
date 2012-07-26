@@ -5,11 +5,11 @@
 	#header{position:relative;padding:50px 0 0;}    	
     	.logo{position:absolute;top:25px;left:10px;z-index:1200;}	
 		.nav{padding:0;margin:0;list-style:none;overflow:hidden;background: url(images/nav-bg.png) no-repeat top right;width:729px;height:47px;float:right;}
-			.nav li{display:inline;float:left;padding:14px;margin:0;border-right:solid 1px #212121;border-left:solid 1px #555;}
+			.nav li{display:inline;float:left;margin:0;border-right:solid 1px #212121;border-left:solid 1px #555;}
 			.nav li.first{margin-left: 25px;border-left:none;}
 			.nav li.last{}
 			.nav li:hover, .nav li.bc{cursor:pointer;color:#fff;background: url(images/nav-hov-bg.jpg) repeat-x top left;}
-				.nav a, .nav a:visited, .nav a:link{font-size:15px;color:#ccc;}
+				.nav a, .nav a:visited, .nav a:link{font-size:15px;color:#ccc;padding:14px;display:block;}
 				.nav a:hover, .nav a.hov{color:#fff;text-decoration: none;}
 				.nav li.bc a, .nav .sel a, .nav a:active{color:#fff;text-decoration: none;}   				
     	.banner{clear:both;z-index:300;}
